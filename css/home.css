@@ -1,51 +1,209 @@
+/*for full body*/
+
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
+/*Header Section Starts*/
 #header {
-    background-image: url(/image/1.jpeg);
-    opacity: .8;
-    background-position: center;
-    background-size: cover;
-    height: 80vh;
+  background-image: url(/image/1.jpeg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  height: 80vh;
 }
 
 .navbar-nav li a {
-    color: #000 !important;
-    float: right;
-    font-size: 20px;
-    font-weight: bold;
+  color: #000 !important;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .navbar-nav li a:hover {
-    color: rgb(11, 112, 245) !important;
-    float: right;
-    font-size: 25px;
-    font-weight: bold;
+  color: rgb(11, 112, 245) !important;
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
 }
 
-
 .navbar-brand h4 {
-    font-size: 30px;
-    font-weight: 600;
-    color: #fff;
-    margin-left: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 50px;
 }
 
 #header .navbar a .logo {
-    color: #000;
-    height: 20px;
-    width: 100px;
+  color: #000;
+  height: 20px;
+  width: 100px;
 }
 
 nav .barss {
-    color: #000;
-    font-size: 30px;
-    padding-right: 30px;
+  color: #000;
+  font-size: 30px;
+  padding-right: 30px;
 }
 
 .navbar-toggler {
-    border: none !important;
-    outline: none !important;
+  border: none !important;
+  outline: none !important;
 }
+
+/*Header Section Ends*/
+
+/*Welcome Section Starts*/
+
+.welcome {
+  padding: 80px 100px;
+  margin-top: -210px;
+  background-color: rgb(11, 112, 245) !important;
+  color: aliceblue;
+  font-size: 15px;
+  box-shadow: 0 0 20px 7px rgb(0, 0, 0, 0.2);
+}
+
+.welcome .btn {
+  padding: 10px 30px;
+  margin-top: 10px;
+  border-radius: 30px;
+  color: white;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.welcome .btn:focus {
+  box-shadow: none;
+}
+/*Welcome Section Ends*/
+
+/*--------------------------------About Section Starts---------------------*/
+#about {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+#about img {
+  margin-top: 28px;
+}
+
+#about .col-md-6 {
+  padding: 20px 10px;
+}
+
+#about h3 {
+  margin: 20px auto;
+}
+/*--------------------------------About Section Ends---------------------*/
+
+/*--------------------------------Services Section Starts---------------------*/
+#services img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #efefef;
+  outline: none !important;
+}
+
+#services {
+  background-color: #efefef;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#services .col-md-4 {
+  padding: 20px;
+}
+
+#services h4 {
+  padding: 5px;
+}
+
+#services p {
+  padding: 5px;
+}
+/*--------------------------------Services Section Ends---------------------*/
+/*--------------------------------Feature Section Starts---------------------*/
+#features {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/image/3.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#features img {
+  outline: none !important;
+  border: none;
+}
+
+#feature .col-md-6 {
+  padding: 20px;
+}
+
+.feature-box {
+  height: 120px;
+}
+
+.feature-left {
+  height: 120px;
+  width: 20%;
+  float: left;
+}
+
+.feature-left i {
+  color: #fff;
+  padding-left: 40px;
+  padding-top: 13px;
+  font-size: 30px;
+}
+
+.feature-right {
+  height: 120px;
+  width: 80%;
+  float: left;
+}
+
+.feature-right h4 {
+  color: #fff;
+  padding-left: 15px;
+  text-align: left;
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+.feature-right p {
+  color: rgb(244, 232, 248);
+  padding-left: 15px;
+  font-size: 15px;
+  text-align: left;
+}
+/*--------------------------------Feature Section Ends---------------------*/
+/*--------------------------------testimonials Section starts---------------------*/
+#testimonials {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#testimonials .col-md-4 {
+  padding-right: 15px;
+  padding-top: 20px;
+}
+
+#testimonials .review {
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  padding: 10px 10px 10px 30px;
+  font-size: 15px;
+}
+
+#testimonials img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+/*--------------------------------Testimonials Section Ends---------------------*/
