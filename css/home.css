@@ -28,11 +28,19 @@
   font-weight: bold;
 }
 
-.navbar-brand h4 {
+.navbar-brand h4,
+i {
   font-size: 30px;
   font-weight: 600;
   color: #fff;
   margin-left: 50px;
+  margin-bottom: 30px;
+}
+#header .fa {
+  padding-left: 10px;
+}
+.navbar-brand i {
+  color: #fff;
 }
 
 #header .navbar a .logo {
@@ -106,6 +114,11 @@ nav .barss {
   border-radius: 50%;
   background-color: #efefef;
   outline: none !important;
+}
+
+#services h1 {
+  color: #013f7e;
+  padding-bottom: 10px;
 }
 
 #services {
@@ -190,20 +203,47 @@ nav .barss {
   padding-bottom: 100px;
 }
 
-#testimonials .col-md-4 {
-  padding-right: 15px;
-  padding-top: 20px;
+#testimonials h1 {
+  color: #013f7e;
+  margin-bottom: 20px;
 }
 
-#testimonials .review {
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
-  padding: 10px 10px 10px 30px;
+#testimonials p {
+  color: #013f7e;
+}
+
+#testimonials .col-md-4 {
+  padding: 10px 30px;
+}
+
+.review {
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+  padding: 15px 15px 15px 30px;
   font-size: 15px;
+  border-radius: 10px;
+  float: left;
 }
 
 #testimonials img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  margin-left: -30px;
+  margin-top: -40px;
+  margin-bottom: 30px;
+  border: 5px solid #fff;
 }
+
+.review i {
+  color: #013f7e;
+}
+
+.review span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #013f7e;
+}
+
 /*--------------------------------Testimonials Section Ends---------------------*/
+
+/*subscribe Starts*/
