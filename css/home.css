@@ -36,9 +36,11 @@ i {
   margin-left: 50px;
   margin-bottom: 30px;
 }
+
 #header .fa {
   padding-left: 10px;
 }
+
 .navbar-brand i {
   color: #fff;
 }
@@ -86,6 +88,7 @@ nav .barss {
 .welcome .btn:focus {
   box-shadow: none;
 }
+
 /*Welcome Section Ends*/
 
 /*--------------------------------About Section Starts---------------------*/
@@ -105,6 +108,11 @@ nav .barss {
 #about h3 {
   margin: 20px auto;
 }
+
+#about p {
+  color: #000;
+}
+
 /*--------------------------------About Section Ends---------------------*/
 
 /*--------------------------------Services Section Starts---------------------*/
@@ -137,7 +145,9 @@ nav .barss {
 
 #services p {
   padding: 5px;
+  color: #013f7e;
 }
+
 /*--------------------------------Services Section Ends---------------------*/
 /*--------------------------------Feature Section Starts---------------------*/
 #features {
@@ -161,6 +171,7 @@ nav .barss {
 
 .feature-box {
   height: 120px;
+  padding-bottom: 150px;
 }
 
 .feature-left {
@@ -179,11 +190,13 @@ nav .barss {
 .feature-right {
   height: 120px;
   width: 80%;
+  padding-left: 20px;
   float: left;
 }
 
 .feature-right h4 {
   color: #fff;
+  margin-bottom: 10px;
   padding-left: 15px;
   text-align: left;
   padding-top: 10px;
@@ -196,6 +209,7 @@ nav .barss {
   font-size: 15px;
   text-align: left;
 }
+
 /*--------------------------------Feature Section Ends---------------------*/
 /*--------------------------------testimonials Section starts---------------------*/
 #testimonials {
@@ -247,3 +261,107 @@ nav .barss {
 /*--------------------------------Testimonials Section Ends---------------------*/
 
 /*subscribe Starts*/
+
+.subscribe {
+  padding: 50px 20px;
+  background-color: #013f7e;
+  position: relative;
+  box-shadow: 0 0 20px 7px rgb(0, 0, 0, 0.2);
+  margin-bottom: -160px;
+}
+
+.subscribe h3,
+p {
+  color: #fff;
+}
+
+.subscribe .input-group {
+  border-radius: 30px;
+  background-color: #efefef;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.subscribe .form-control {
+  border: none;
+  background: transparent;
+}
+
+.subscribe .form-control:focus {
+  box-shadow: none;
+  background: transparent;
+}
+
+.subscribe .input-group-append {
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+}
+
+.subscribe .input-group-text {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.subscribe .btn:focus {
+  box-shadow: none;
+}
+
+/*subscribe Ends*/
+
+/*Footer Starts*/
+
+#footer {
+  margin-top: 80px;
+  padding: 80px;
+  background-image: linear-gradient(#2d557d, #9610fb);
+}
+
+#footer h3 {
+  color: #ffff;
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+#footer h1 {
+  color: #fff;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#footer p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#footer .fa {
+  padding-right: 10px;
+  color: #fff;
+  margin-left: 0;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+#footer hr {
+  margin-top: 10px;
+}
+
+#footer span {
+  padding-right: 5px;
+}
+
+#footer .copyright {
+
+  margin-bottom: -30px;
+
+}
+
+/*Footer Ends*/

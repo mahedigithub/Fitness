@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="/css/animate.min.css" />
+    <script src="/js/smooth-scroll.min.js"></script>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -43,21 +45,21 @@
               <a class="nav-link" href="#">HOME </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT US</a>
+              <a class="nav-link" href="#about">ABOUT US</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SERVICES</a>
+              <a class="nav-link" href="#services">SERVICES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FEATURES</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">REVIEWS</a>
+              <a class="nav-link" href="#features">FEATURES</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT US</a>
+              <a class="nav-link" href="#testimonials">REVIEWS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">CONTACT US</a>
             </li>
           </ul>
         </div>
@@ -68,7 +70,7 @@
     <!-----------------------------------Welcome Section Starts------------------------------------------>
     <section id="welcome">
       <div class="container">
-        <div class="welcome text-center">
+        <div class="welcome text-center wow slideInLeft delay-1s">
           <h1>Welcome to Fitness Club</h1>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
@@ -88,7 +90,7 @@
     <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 wow slideInLeft">
             <img src="/image/2.jpeg" class="img-fluid" alt="" />
           </div>
           <div class="col-md-6 text-justify">
@@ -101,7 +103,7 @@
             </p>
           </div>
 
-          <div class="col-md-6 text-justify">
+          <div class="col-md-6 text-justify wow slideInDown">
             <h3>Work Hard In Silence</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -111,7 +113,7 @@
             </p>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 wow slideInRight">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe
                 class="embed-responsive-item"
@@ -271,11 +273,72 @@
         <div class="subscribe text-center">
           <h3>Join For Free Trial Now</h3>
           <p>Subscribe Our NewsLetter and Get 30 Days Free Trial</p>
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Your Email" />
+            <div class="input-group-append">
+              <button type="submit" class="input-group-text btn">
+                Subscribe
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-----------------------------------Subscribe Section Ends ------------------------------------------>
 
+    <!-----------------------------------Footer Section Starts------------------------------------------>
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h3>Fitness Club</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+              minima illo eveniet, doloribus, qui voluptate dolorem dolorum,
+              temporibus eos natus commodi ex! Temporibus qui necessitatibus
+              minus, ab soluta quos vel!
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <h1>Features</h1>
+            <p>Certified Trainers</p>
+            <p>Free Consultation</p>
+            <p>Flexible Time</p>
+            <p>30 Days Free Trial</p>
+          </div>
+
+          <div class="col-md-3">
+            <h1>Contact Us</h1>
+            <p><i class="fa fa-phone"></i>01516744158</p>
+            <p><i class="fa fa-envelope"></i>hassan.pranto@northsouth.edu</p>
+            <p><i class="fa fa-home"></i>Dania Dhaka-1236</p>
+          </div>
+
+          <div class="col-md-3">
+            <h1>Follow Us On</h1>
+            <p><i class="fa fa-facebook"></i>Facebook</p>
+            <p><i class="fa fa-youtube"></i>Youtube</p>
+            <p><i class="fa fa-twitter"></i>Twitter</p>
+            <p><i class="fa fa-linkedin"></i>Linkedin</p>
+          </div>
+        </div>
+        <hr />
+
+        <p class="copyright text-center">
+          <span>Copyright By</span
+          ><i class="fa fa-heart-o" aria-hidden="true"></i>Mahedi
+        </p>
+      </div>
+    </section>
+
+    <!-----------------------------------Footer Section Ends------------------------------------------>
+
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/home.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
